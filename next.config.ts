@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
         protocol: 'https', // Или 'http' если ваш прод на http
         hostname: 'altailands.ru', // Ваш домен в продакшене
         port: '', // Пусто, если стандартные порты 80/443
-        pathname: '/backend/media/**', // Путь к медиа в продакшене
+        pathname: '/media/**', // Путь к медиа в продакшене
       },
       {
         protocol: 'http', // HTTP для локальной разработки
